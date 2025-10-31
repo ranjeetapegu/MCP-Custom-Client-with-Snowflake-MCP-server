@@ -1,6 +1,6 @@
 # MCP Client Setup Guide
 
-Complete step-by-step guide for setting up a Model Context Protocol (MCP) client project.
+Complete step-by-step guide for setting up a Model Context Protocol (MCP) client project. Assuming the you have snowflake managed mcp server already created (for more details :https://github.com/ranjeetapegu/Snowflake_Managed_MCP_Servers
 
 **Reference**: https://modelcontextprotocol.io/docs/develop/build-client
 
@@ -73,6 +73,23 @@ uv add mcp anthropic python-dotenv
 uv sync
 ```
 
+
+### Step 6: Execution
+
+# Navigate
+cd /Users/rpegu/Documents/GenAI/MCP_client/mcp-client
+
+# Activate environment
+source .venv/bin/activate
+
+# Run non-interactive (automatic demo)
+python without_llm_client.py
+
+# Run interactive (manual queries)
+python interactive_mcp.py
+
+# Deactivate when done
+deactivate
 
 ## System Specifications Used
 - **OS**: macOS (darwin 24.6.0)
