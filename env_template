@@ -1,0 +1,11 @@
+# Anthropic API Key
+ANTHROPIC_API_KEY=sk-.......................
+
+# Snowflake PAT Token (get from Snowflake UI)
+SNOWFLAKE_PAT_TOKEN=............................Lnnd3p4EkEeUzxTGI_w2w-AvuaGCaMBuiqEpzRgz8A
+
+# Connection Details
+SNOWFLAKE_ACCOUNT=SNF_ACCOUNT
+SNOWFLAKE_DATABASE=genai_db
+SNOWFLAKE_SCHEMA=data
+SNOWFLAKE_MCP_SERVER=imdb_mcp_server
